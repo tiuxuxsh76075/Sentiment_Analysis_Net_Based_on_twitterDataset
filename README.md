@@ -19,10 +19,10 @@ The dataset consists of tweets with sentiment labels. Half of the dataset contai
 
 
 ## Requirements
-Tensorflow==2.4.0
-python==3.8
-numpy
-scikit-learn
-scipy
-nltk
+Tensorflow==2.4.0 <br>
+python==3.8 <br>
+numpy <br>
+scikit-learn <br>
+scipy <br>
+nltk <br>
 keras
