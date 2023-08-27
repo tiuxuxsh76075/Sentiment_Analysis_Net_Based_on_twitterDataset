@@ -11,7 +11,7 @@ The dataset consists of tweets with sentiment labels. Half of the dataset contai
 
 
 ## Start the Training 
-1. Download the dataset to the root directory, rename it as the train.csv,the format must be the CSV, download the globe.6B.200d.txt (which can be easily found) to ./dataset/
+1. Download the dataset to the root directory, rename it as the train.csv,the format must be the CSV, download the globe.6B.200d.txt (http://nlp.stanford.edu/data/glove.6B.zip) to ./dataset/
 2. CD the code directory, run the preprocess.py like:  python preprocess.py <the direction of the dataset> , the csv will be process and saved as train-processed.csv
 3. Run the stats.py: python stats.py <the direction of the processed csv>, it will generates several files.
 4. Run the lstm.py: python lstm.py
