@@ -16,3 +16,13 @@ The dataset consists of tweets with sentiment labels. Half of the dataset contai
 3. Run the stats.py: python stats.py <the direction of the processed csv>, it will generates several files.
 4. Run the lstm.py: python lstm.py
 5. The model will be saved in ./models/
+
+
+## Requirements
+Tensorflow==2.4.0
+python==3.8
+numpy
+scikit-learn
+scipy
+nltk
+keras
